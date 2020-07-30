@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-line": "./childCom/w-line/w-line"
+  },
+  "navigationBarTitleText": "首页"
+}

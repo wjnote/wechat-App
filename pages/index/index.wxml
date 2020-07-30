@@ -1,0 +1,75 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="uni-wrap">
+    <swiper class="swiper" indicator-dots="indicatordots" autoplay="{{true}}">
+      <swiper-item>
+        <image class="swiperimg" src="/assets/homepage/banner@2x.png" mode=""></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="swiperimg" src="/assets/homepage/banner2@2x.png" mode=""></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="swiperimg" src="/assets/homepage/banner3@2x.png" mode=""></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="searchwrap">
+    <view class="searchbox">
+      <icon type="search" class="searchicon" size="18" />
+      <button class="searchinput" bind:tap="handleShowTodo">请输入你要办理的事项</button>
+    </view>
+    <button class="scanningbox" bind:tap="handleScan">
+      <image class="scanimgs" src="/assets/homepage/icon-scan@2x.png" mode=""></image>
+      <text class="scanvalue">扫一扫</text>
+    </button>
+  </view>
+
+  <w-line title="{{'我要查'}}" />
+
+  <view class="list">
+    <view class="item" bind:tap="handleQuerypProgress">
+      <image class="itemimg" src="/assets/homepage/icon-progress@2x.png" alt="" />
+      <text class="itemmsg">进度查询</text>
+    </view>
+    <view class="item" bind:tap="handleGotoMysubscribe">
+      <image class="itemimg" src="/assets/homepage/icon-orderSearch@2x.png" alt="" />
+      <text class="itemmsg">预约查询</text>
+    </view>
+    <view class="item" bind:tap="handleGotoMyAppeal">
+      <image class="itemimg" src="/assets/homepage/icon-appealSearch@2x.png" alt="" />
+      <text class="itemmsg">诉求查询</text>
+    </view>
+  </view>
+  
+  <w-line title="{{'我要看'}}" />
+
+  <view class="list">
+    <view class="item">
+      <image class="itemimg" src="/assets/homepage/icon-guide@2x.png" alt=""/>
+        <text class="itemmsg">办事指南</text>
+    </view>
+    <view class="item">
+      <image class="itemimg" src="/assets/homepage/icon-order@2x.png" alt=""/>
+        <text class="itemmsg">大厅排队</text>
+    </view>
+    <view class="item">
+      <image class="itemimg" src="/assets/homepage/icon-invest@2x.png" alt=""/>
+        <text class="itemmsg">工作动态</text>
+    </view>
+  </view>
+
+  <w-line title="{{'我要办'}}" />
+
+  <view class="list">
+    <view class="item">
+      <image class="itemimg" src="/assets/homepage/icon-ordernum@2x.png" alt=""/>
+        <text class="itemmsg">预约排号</text>
+    </view>
+    <view class="item">
+      <image class="itemimg" src="/assets/homepage/icon-appeal@2x.png" alt=""/>
+        <text class="itemmsg">我要诉求</text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,105 @@
+/* pages/index/index.wxss */
+
+.swiper {
+  width: 100%;
+  height: 300rpx;
+}
+
+.swiperimg {
+  width: 100%;
+  height: 100%;
+}
+
+.searchwrap {
+  display: flex;
+  width: 100%;
+  height: 128rpx;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+}
+
+.searchbox {
+  display: flex;
+  width: 560rpx;
+  height: 76rpx;
+  margin: 6rpx 20rpx;
+  padding-right: 40rpx;
+  border: 1rpx solid #c8c8c8;
+  border-radius: 50rpx;
+  box-sizing: border-box;
+}
+
+.searchicon {
+  width: 42rpx;
+  height: 42rpx;
+  margin: 20rpx 0 0 22rpx;
+}
+
+.searchinput {
+  flex: 1;
+  height: 70rpx;
+  text-align: left;
+  padding: 0;
+  padding-left: 16rpx;
+  margin-top: 2rpx;
+  line-height: 68rpx;
+  font-size: 28rpx;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #444;
+}
+
+.searchinput::after {
+  border: none;
+}
+
+.scanningbox {
+  flex: 1;
+  padding: 0;
+  background-color: #fff;
+}
+
+.scanningbox::after {
+  border: none;
+}
+
+.scanimgs {
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+  margin: 0 auto;
+}
+
+.scanvalue {
+  display: block;
+  width: 100%;
+  height: 32rpx;
+  font-size: 12px;
+  line-height: 36rpx;
+  color: #333;
+}
+.list{
+  display: flex;
+  width: 94%;
+  height: 200rpx;
+  margin: 0 auto;
+}
+.item{
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.itemimg{
+  display: block;
+  width: 72rpx;
+  height: 72rpx;
+  margin: 0 auto 20rpx;
+}
+.itemmsg{
+  display: block;
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 14px;
+}
