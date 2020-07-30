@@ -1,0 +1,36 @@
+<!-- pages/login/login.wxml -->
+<view>
+  <view class="header-login">
+    <image class="login-logo" src="/assets/login/banner@2x.png" alt="app logo" />
+  </view>
+  <view class="loginbox">
+    <view class="loginitem">
+      <image class="loginicon" src="/assets/login/user@2x.png"></image>
+      <input class="login-input" 
+          type="text" 
+          value="{{loginid}}" 
+          bindinput="handleChangeval" 
+          placeholder="请输入用户名" />
+    </view>
+    <view class="loginitem">
+      <image class="loginicon" src="/assets/login/password@2x.png"></image>
+      <input class="login-input" 
+          value="{{password}}" 
+          password 
+          bindinput="handleChangepsw"
+          type="text" 
+          placeholder="请输入密码" />
+    </view>
+    <view>
+      <button class="loginbtn" type="primary" size="default" bind:tap="handleLogin">登陆</button>
+    </view>
+    <view class="loginbotm">
+      <navigator class="login-register" url="/pages/login/register" hover-class="navigator-hover">
+        <text>立即注册</text>
+      </navigator>
+      <navigator class="login-password" url="/pages/login/findPassword" hover-class="navigator-hover">
+        <text>忘记密码?</text>
+      </navigator>
+    </view>
+  </view>
+</view>
