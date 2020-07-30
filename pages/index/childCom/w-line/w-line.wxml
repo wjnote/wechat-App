@@ -1,0 +1,4 @@
+<!--pages/index/childCom/w-text/w-text.wxml-->
+<view class="g-line">
+  <text class="linetext">{{title}}</text>
+</view>
