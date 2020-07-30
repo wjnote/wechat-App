@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/login/login"
+  ],
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#26a2ff",
+    "backgroundColor": "#eaeaea",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/homepage/icon-account.png",
+        "selectedIconPath": "assets/homepage/icon-account-active.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "iconPath": "assets/homepage/icon-home.png",
+        "selectedIconPath": "assets/homepage/icon-home-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ch-app"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
